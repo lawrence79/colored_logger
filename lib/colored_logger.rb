@@ -3,6 +3,7 @@ require "colored_logger/core_ext"
 require 'colored_logger/railtie' if defined?(Rails)
 
 module ColoredLogger
+
       class ActiveSupport::Logger::SimpleFormatter
           SEVERITY_TO_TAG_MAP     = {'DEBUG'=>'nom', 'INFO'=>'fyi', 'WARN'=>'hmm', 'ERROR'=>'wtf', 'FATAL'=>'omg', 'UNKNOWN'=>'???'}
           SEVERITY_TO_COLOR_MAP   = {'DEBUG'=>'0;37;45', 'INFO'=>'32', 'WARN'=>'33', 'ERROR'=>'31', 'FATAL'=>'31', 'UNKNOWN'=>'37'}
