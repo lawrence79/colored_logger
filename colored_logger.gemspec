@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["lawrence@lawrencenorton.com"]
   spec.summary       = %q{Created colored outputs for your logger}
   spec.description   =  ""
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/lawrence79/colored_logger"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
