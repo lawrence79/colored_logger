@@ -1,6 +1,6 @@
 # ColoredLogger
 
-![Example of Logs](https://github.com/lawrence79/colored_logger/blob/master/screen.png "Logger Example")
+![Example of Logs](screen.png "Logger Example")
 
 ## Installation
 
