@@ -1,6 +1,6 @@
 # ColoredLogger
 
-TODO: Write a gem description
+![Example of Logs](https://github.com/lawrence79/colored_logger/blob/master/screen.png "Logger Example")
 
 ## Installation
 
