@@ -18,7 +18,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add color to any logger output using `Rails.logger.<debug|info|warn|error|fatal|unknown> "I am a string".<black|red|green|yellow|blue|magenta|cyan|white>`
+
+Right now the colors for the logger severity are hardcoded but I will update soon. As of now they are
+
+```
+{'DEBUG'=>'0;37;45', 'INFO'=>'32', 'WARN'=>'33', 'ERROR'=>'31', 'FATAL'=>'31', 'UNKNOWN'=>'37'}
+```
+
+## Coming Soon
+
+* Inverse colors/background
+* Custom Severities
+* Tagged Logs
+
 
 ## Contributing
 
