@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ColoredLogger::VERSION
   spec.authors       = ["Lawrence Norton"]
   spec.email         = ["lawrence@lawrencenorton.com"]
-  spec.summary       = %q{Created colored outputs for your logger}
-  spec.description   =  ""
+  spec.summary       = %q{A rails logger formatter & colorizer}
+  spec.description   =  "Better formatting and color for your logger "
   spec.homepage      = "https://github.com/lawrence79/colored_logger"
   spec.license       = "MIT"
 
